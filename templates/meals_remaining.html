@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block body %}
+<div class="panel panel-default">
+  <div class="panel-heading">
+  	<h4>Meals Remaining: </h4>
+  </div>
+
+<div>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Vegetables</th>
+        <th>Nuts/Grains/Beans</th>
+        <th>Meat/Seafood/Dairy/eggs</th>
+      </tr>
+    </thead>
+    <tbody>
+
+      <tr>
+        <th scope="row">{{ meals[0] }}</th>
+        <td>{{meals[1]}}</td>
+        <td>{{meals[2]}}</td>
+      </tr>
+
+    </tbody>
+  </table>
+</div>
+
+</div>
+
+{% endblock %}

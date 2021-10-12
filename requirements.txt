@@ -1,0 +1,12 @@
+click==6.7
+Flask==0.12.2
+flask-login==0.4.0
+flask-mysqldb==0.2.0
+itsdangerous==0.24
+Jinja2==2.9.6
+libmysqlclient-dev==5.7.11
+MarkupSafe==1.0
+mysql-server==5.7.19
+pkg-resources==0.0.0
+PyMySQL==0.7.11 
+Werkzeug==0.12.2
